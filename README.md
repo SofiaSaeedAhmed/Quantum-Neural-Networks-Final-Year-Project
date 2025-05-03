@@ -2,6 +2,11 @@
 ## Imports
 **Required Libraries**
 
+# FYP
+## Imports
+
+**Required Libraries**
+
 To run the project, make sure to install the necessary dependencies:
 
 ```bash
@@ -14,7 +19,7 @@ pip install pennylane-qiskit
 
 # Matplotlib for Visualization
 pip install matplotlib
-
+```
 
 
 ## Code files 
