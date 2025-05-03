@@ -80,4 +80,17 @@ pip install matplotlib
 
 **Graphing and visualisation:**  
 * _graphs_: Generate all result graphs  
-* _visualisationCIFAR_: Visualise CIFAR model predictions  
+* _visualisationCIFAR_: Visualise CIFAR model predictions
+
+## Dataset Folders
+*_UCF20_: 20 folders, each containing videos
+
+*_temp_all_frames_: Temporary frames of all 20 classes in their respective folders
+
+*_output_results_: Output and .pth files of each model
+
+*MNIST Dataset: Downloads and loads in Python script from in-built `datasets` library
+
+*CIFAR-10 Dataset: Downloads and loads in Python script from in-built `datasets` library
+
+*Medical MNIST: Download ZIP folder from Kaggle
