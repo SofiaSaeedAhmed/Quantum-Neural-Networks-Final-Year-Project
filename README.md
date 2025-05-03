@@ -1,13 +1,15 @@
 # FYP
 
-**Code files**    
+**Code files:**    
+* _PQC1.py_: File containing PQC1 code  
+* _PQC2.py_: File containing PQC2 code  
+* _PQC3.py_: File containing PQC3 code  
 
-* _togglePause()_: Toggles the pause state of the game engine. If the engine is not null, it checks whether the engine is currently paused. If is it currently paused, it calls the countdown method to resume the game; otherwise, it pauses the engine and updates the UI. 
+**MNIST experiments:**    
+* _MNIST 3a (PQC3)_: Without dropout, Adam optimiser  
+* _MNIST 3 (PQC3)_: With dropout, Adam optimiser  
+* _MNIST 3b (PQC3)_: With dropout, SGD optimiser  
 
-* _startResumeCountdown()_: If engine is already paused, initiate countdown and then call the resume method. Removes a CSS style class from the UI root element.
-  
-* _countdownAndResume()_: Displays the countdown on the screen. After the countdown, resumes the game engine by updating the UI on the JavaFX application thread.
-
-* _handle(KeyEvent event)_: Contains a case where if Space Bar is clicked, it calls the `togglePause()` method.
-
-* _Style.css_: Added a .pauseRoot sections with background color set to #c78aa3. This will be added when the game is paused and removed once game is resumed.
+**CIFAR-10 code files:**    
+* _cifarconv2_: Model `C32C64FC256FC25Q5E3` — 2 convolutional layers, 2 fully connected layers, 5 quantum circuits, 3 entangling layers  
+* _cifar2_: Model `C32C64C128C256FC256FC128FC20Q5` — 4 convolutional layers, 3 fully connected layers, 5 quantum circuits, 3 entangling layers  
