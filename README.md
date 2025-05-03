@@ -1,9 +1,5 @@
 # FYP
 ## Imports
-**Required Libraries**
-
-# FYP
-## Imports
 
 **Required Libraries**
 
@@ -20,7 +16,6 @@ pip install pennylane-qiskit
 # Matplotlib for Visualization
 pip install matplotlib
 ```
-
 
 ## Code files 
 * _PQC1.py_: File containing PQC1 code  
