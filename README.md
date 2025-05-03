@@ -94,3 +94,6 @@ pip install matplotlib
 * CIFAR-10 Dataset: Downloads and loads in Python script from in-built `datasets` library
 
 * Medical MNIST: Download ZIP folder from Kaggle
+
+## Excel File
+Models.xlx: Contains details of all the models and their results.
