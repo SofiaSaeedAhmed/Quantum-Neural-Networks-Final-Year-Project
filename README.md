@@ -11,40 +11,40 @@
 * _MNIST 3b (PQC3)_: With dropout, SGD optimiser  
 
 **CIFAR-10 code files:**    
-* _cifarconv2_: Model C32C64FC256FC25Q5E3 — 5 quantum circuits, 3 entangling layers, LR: 0.001  
-* _cifar2_: Model C32C64C128C256FC256FC128FC20Q5 — 5 circuits, 3 entangling layers, LR: 0.001  
-* _concat4_: Model C32C64C128C256FC256FC128FC20Q4 — 4 circuits, 3 entangling layers, LR: 0.001  
-* _concat2_: Model C32C64C128C256FC256FC128FC20Q6 — 6 circuits, 3 entangling layers, LR: 0.001  
-* _concat3_: Model C32C64C128C256FC256FC128FC20Q10 — 10 circuits, 3 entangling layers, LR: 0.001  
-* _concat4_: Model C32C64C128C256FC256FC128FC20Q4E3 — 4 circuits, 3 entangling layers, LR: 0.001  
-* _cifar3_: Model C32C64C128C256FC256FC128FC20Q4E5 — 4 circuits, 5 entangling layers, LR: 0.001  
-* _cifar1_: Model C32C64C128C256FC256FC128FC20Q4E0 — 4 circuits, 0 entangling layers, LR: 0.001  
-* _cifar4_: Model C32C64C128C256FC256FC128FC20Q4E10 — 4 circuits, 10 entangling layers, LR: 0.001  
-* _cifar5_: Model C32C64C128C256FC256FC128FC20Q4E2 — 4 circuits, 2 entangling layers, LR: 0.001  
-* _cifar6_: Model C32C64C128C256FC256FC128FC20Q4E3S — 4 circuits, 3 entangling layers, LR: 0.001  
+* _cifarconv2_: Model `C32C64FC256FC25Q5E3` — 2 convolutional layers, 2 fully connected layers, 5 quantum circuits, 3 entangling layers, LR: 0.001  
+* _cifar2_: Model `C32C64C128C256FC256FC128FC20Q5` — 4 convolutional layers, 3 fully connected layers, 5 quantum circuits, 3 entangling layers, LR: 0.001  
+* _concat4_: Model `C32C64C128C256FC256FC128FC20Q4` — 4 convolutional layers, 3 fully connected layers, 4 quantum circuits, 3 entangling layers, LR: 0.001  
+* _concat2_: Model `C32C64C128C256FC256FC128FC20Q6` — 4 convolutional layers, 3 fully connected layers, 6 quantum circuits, 3 entangling layers, LR: 0.001  
+* _concat3_: Model `C32C64C128C256FC256FC128FC20Q10` — 4 convolutional layers, 3 fully connected layers, 10 quantum circuits, 3 entangling layers, LR: 0.001  
+* _concat4_: Model `C32C64C128C256FC256FC128FC20Q4E3` — 4 convolutional layers, 3 fully connected layers, 4 quantum circuits, 3 entangling layers, LR: 0.001  
+* _cifar3_: Model `C32C64C128C256FC256FC128FC20Q4E5` — 4 convolutional layers, 3 fully connected layers, 4 quantum circuits, 5 entangling layers, LR: 0.001  
+* _cifar1_: Model `C32C64C128C256FC256FC128FC20Q4E0` — 4 convolutional layers, 3 fully connected layers, 4 quantum circuits, 0 entangling layers, LR: 0.001  
+* _cifar4_: Model `C32C64C128C256FC256FC128FC20Q4E10` — 4 convolutional layers, 3 fully connected layers, 4 quantum circuits, 10 entangling layers, LR: 0.001  
+* _cifar5_: Model `C32C64C128C256FC256FC128FC20Q4E2` — 4 convolutional layers, 3 fully connected layers, 4 quantum circuits, 2 entangling layers, LR: 0.001  
+* _cifar6_: Model `C32C64C128C256FC256FC128FC20Q4E3S` — 4 convolutional layers, 3 fully connected layers, 4 quantum circuits, 3 entangling layers, LR: 0.001  
 
 **Learning rate tuning experiments:**  
-* _cifarsoftlr_: Model C32C64C128C256FC256FC128FC20Q4E3 — LR: 0.005/0.001  
-* _cifarsoftlr2_: Model C32C64C128C256FC256FC128FC20Q4E3 — LR: 0.005/0.001  
-* _cifarsoftlr3_: Model C32C64C128C256FC256FC128FC20Q4E3 — LR: 0.005/0.003  
-* _cifarsoftlr4_: Model C32C64C128C256FC256FC128FC20Q4E3 — LR: 0.0025/0.001  
+* _cifarsoftlr_: Model `C32C64C128C256FC256FC128FC20Q4E3` — 4 quantum circuits, 3 entangling layers, LR: 0.005/0.001  
+* _cifarsoftlr2_: Model `C32C64C128C256FC256FC128FC20Q4E3` — 4 quantum circuits, 3 entangling layers, LR: 0.005/0.001  
+* _cifarsoftlr3_: Model `C32C64C128C256FC256FC128FC20Q4E3` — 4 quantum circuits, 3 entangling layers, LR: 0.005/0.003  
+* _cifarsoftlr4_: Model `C32C64C128C256FC256FC128FC20Q4E3` — 4 quantum circuits, 3 entangling layers, LR: 0.0025/0.001  
 
 **Supervised CIFAR variant:**  
-* _cifarsuper_: Model C32C64C128C256FC256FC128FC20Q4E3 — LR: 0.005/0.003  
+* _cifarsuper_: Model `C32C64C128C256FC256FC128FC20Q4E3` — 4 quantum circuits, 3 entangling layers, LR: 0.005/0.003  
 
 **Simple CIFAR models (no quantum layers):**  
-* _Simplecifar1_: Model C32C64C128C256FC256FC128FC20 — LR: 0.003  
-* _Simplecifar2_: Model C32C64C128C256FC256FC128FC20 — LR: 0.005  
+* _Simplecifar1_: Model `C32C64C128C256FC256FC128FC20` — 4 convolutional layers, 3 fully connected layers, LR: 0.003  
+* _Simplecifar2_: Model `C32C64C128C256FC256FC128FC20` — 4 convolutional layers, 3 fully connected layers, LR: 0.005  
 
 **Medical MNIST experiments:**  
-* _medicalquantum_: Model C32C64C128C256FC256FC128FC20Q4E3 — 4 circuits, 3 entangling layers, LR: 0.005/0.003  
-* _medicalsimple_: Model C32C64C128C256FC256FC128FC20Q4E3 — LR: 0.005  
+* _medicalquantum_: Model `C32C64C128C256FC256FC128FC20Q4E3` — 4 quantum circuits, 3 entangling layers, LR: 0.005/0.003  
+* _medicalsimple_: Model `C32C64C128C256FC256FC128FC20Q4E3` — quantum model (no entangling details), LR: 0.005  
 
 **UCF101 experiments (video):**  
 * _cnnUCF_: Classical CNN baseline — LR: 0.005  
-* _ucfqcnn_: Quantum CNN variant — 4 circuits, 3 entangling layers, LR: 0.005/0.003  
+* _ucfqcnn_: Quantum CNN variant — 4 quantum circuits, 3 entangling layers, LR: 0.005/0.003  
 * _lstmCNN_ucf_: Classical LSTM + CNN — LR: 0.0005  
-* _QlstmCNN_ucf_: Quantum LSTM + CNN — 4 circuits, 3 entangling layers, LR: 0.0005  
+* _QlstmCNN_ucf_: Quantum LSTM + CNN — 4 quantum circuits, 3 entangling layers, LR: 0.0005  
 
 **Dataset preparation files:**  
 * _dataset_: UCF101 — frame extraction and preparation  
