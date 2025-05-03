@@ -23,6 +23,14 @@ pip install matplotlib
 * _PQC3.py_: File containing PQC3 code  
 
 **MNIST experiments:**    
+* _MNIST 1a (PQC1)_: Without dropout, Adam optimiser  
+* _MNIST 1 (PQC1)_: With dropout, Adam optimiser  
+* _MNIST 1b (PQC1)_: With dropout, SGD optimiser
+
+* _MNIST 2a (PQC2)_: Without dropout, Adam optimiser  
+* _MNIST 2 (PQC2)_: With dropout, Adam optimiser  
+* _MNIST 2b (PQC2)_: With dropout, SGD optimiser
+  
 * _MNIST 3a (PQC3)_: Without dropout, Adam optimiser  
 * _MNIST 3 (PQC3)_: With dropout, Adam optimiser  
 * _MNIST 3b (PQC3)_: With dropout, SGD optimiser  
