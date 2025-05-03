@@ -16,6 +16,8 @@ pip install pennylane-qiskit
 # Matplotlib for Visualization
 pip install matplotlib
 ```
+## Excel File
+Models.xlx: Contains details of all the models and their results.
 
 ## Code files 
 * _PQC1.py_: File containing PQC1 code  
@@ -94,6 +96,3 @@ pip install matplotlib
 * CIFAR-10 Dataset: Downloads and loads in Python script from in-built `datasets` library
 
 * Medical MNIST: Download ZIP folder from Kaggle
-
-## Excel File
-Models.xlx: Contains details of all the models and their results.
