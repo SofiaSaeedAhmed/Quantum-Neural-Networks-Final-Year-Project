@@ -1,6 +1,23 @@
 # FYP
+## Imports
+**Required Libraries**
 
-**Code files:**    
+To run the project, make sure to install the necessary dependencies:
+
+```bash
+# PyTorch and Torchvision
+pip install torch torchvision
+
+# Quantum Libraries
+pip install pennylane
+pip install pennylane-qiskit
+
+# Matplotlib for Visualization
+pip install matplotlib
+
+
+
+## Code files 
 * _PQC1.py_: File containing PQC1 code  
 * _PQC2.py_: File containing PQC2 code  
 * _PQC3.py_: File containing PQC3 code  
