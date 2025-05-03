@@ -92,6 +92,7 @@ https://numcmy-my.sharepoint.com/:x:/g/personal/hcysa3_nottingham_edu_my/EbRRfoZ
 * _output_results_: Output and .pth files of each model
 
 * MNIST Dataset: Downloads and loads in Python script from in-built `datasets` library
+https://www.kaggle.com/datasets/andrewmvd/medical-mnist
 
 * CIFAR-10 Dataset: Downloads and loads in Python script from in-built `datasets` library
 
