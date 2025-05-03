@@ -51,9 +51,8 @@ https://numcmy-my.sharepoint.com/:x:/g/personal/hcysa3_nottingham_edu_my/EbRRfoZ
 
 **Learning rate tuning experiments:**  
 * _cifarsoftlr_: Model `C32C64C128C256FC256FC128FC20Q4E3` — 4 quantum circuits, 3 entangling layers, LR: 0.005/0.001  
-* _cifarsoftlr2_: Model `C32C64C128C256FC256FC128FC20Q4E3` — 4 quantum circuits, 3 entangling layers, LR: 0.005/0.001  
-* _cifarsoftlr3_: Model `C32C64C128C256FC256FC128FC20Q4E3` — 4 quantum circuits, 3 entangling layers, LR: 0.005/0.003  
-* _cifarsoftlr4_: Model `C32C64C128C256FC256FC128FC20Q4E3` — 4 quantum circuits, 3 entangling layers, LR: 0.0025/0.001  
+* _cifarsoftlr2_: Model `C32C64C128C256FC256FC128FC20Q4E3` — 4 quantum circuits, 3 entangling layers, LR: 0.005/0.003  
+* _cifarsoftlr3_: Model `C32C64C128C256FC256FC128FC20Q4E3` — 4 quantum circuits, 3 entangling layers, LR: 0.0025/0.001  
 
 **Supervised CIFAR variant:**  
 * _cifarsuper_: Model `C32C64C128C256FC256FC128FC20Q4E3` — 4 quantum circuits, 3 entangling layers, LR: 0.005/0.003  
