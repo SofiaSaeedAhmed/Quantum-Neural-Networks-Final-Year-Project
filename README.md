@@ -1,4 +1,5 @@
-# FYP
+# Is Quantum Better Than Classical? A Comparative Study of Hybrid Quantum-Classical Neural Networks
+# Final Year Project (FYP)
 ## Imports
 
 **Required Libraries**
